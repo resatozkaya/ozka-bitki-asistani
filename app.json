@@ -22,11 +22,12 @@
       "package": "com.ozka.bitkiasistani",
       "versionCode": 1,
       "permissions": [
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
-        "RECEIVE_BOOT_COMPLETED",
-        "VIBRATE"
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.VIBRATE",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "plugins": [
@@ -40,7 +41,12 @@
         }
       ]
     ],
-    "extra": {},
-    "sdkVersion": "54.0.0"
+    "extra": {
+      "eas": {
+        "projectId": "a1e465f7-57b7-45c1-92e3-f4e75928eb15"
+      }
+    },
+    "sdkVersion": "54.0.0",
+    "owner": "resatozkaya"
   }
 }
